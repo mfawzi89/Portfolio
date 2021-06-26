@@ -94,7 +94,7 @@ b.max-bold{ font-weight: 700; }
 .margin-b-30{ margin-bottom: 30px; }
 .margin-b-50{ margin-bottom: 50px; }
 
-.margin-tb-30{ margin-top: 30px; margin-bottom: 30px; }
+.margin-tb-30{ margin-top: 30px; margin-bottom: 30px; text-align: justify;}
 
 .font-yellow{ color: #FFA600; }
 
@@ -203,12 +203,19 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 .experience .list > li{ display: block; position: relative; margin-bottom: 10px; padding-left: 20px; }
 
 .experience .list > li:before{ content: ''; position: absolute; top: 50%; left: 0; height: 10px; 
-	width: 10px; margin-top: -5px; display: block; border-radius: 10px; border: 2px solid #fff; }
+	width: 10px; margin-top: -5px; display: block; border-radius: 10px; border: 2px solid rgb(255, 255, 255); }
 
 	
 /* ---------------------------------
 8. EDUCATION SECTION
 --------------------------------- */
+
+.education-section{ background: #ffffff; color: rgb(0, 0, 0); }
+
+.education .list > li{ display: block; position: relative; margin-bottom: 5px; padding-left: 20px; }
+
+.education .list > li:before{ content: ''; position: absolute; top: 50%; left: 0; height: 10px; 
+	width: 10px; margin-top: -5px; display: block; border-radius: 10px; border: 2px solid rgb(0, 0, 0); }
 
 .education-wrapper{ position: relative; }
 
